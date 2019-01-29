@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div id="content_container">
+        <div id="maincontainer" class="bodycopy">
+        </div>
+{{ content }}
+</div>
+{% for tags in page.tags %}
+        #{{tags}} 
+{% endfor %}

@@ -1,0 +1,27 @@
+---
+ layout: default
+---
+        <div id="content_container">
+                <div id="maincontainer" class="bodycopy">
+                </div>
+                {% for post in site.categories.home %}
+                <div class="page">
+                        <div class="project_thumb">
+                            <div id="pr_contain_item_13727308">
+                                    <a href="{{ post.url  | prepend: site.baseurl }}" onmouseover="this.className='hover';" onmouseout="this.className='nohover';"  class="nohover" id="p13727308" rel="history" name="vtol" onfocus="this.blur()">
+                            <div class="loader_holder ">
+                                    <img src="http://vtol.cc/_gfx/loadingAnim.gif">
+                                </div>
+                                <div class="cardimgcrop " id="cardthumb_13727308" name="">
+                                    <img src="https://payload.cargocollective.com/1/11/376496/13727308/prt_1543839291.jpg" border="0" rel="testprt_1543839291.jpg" data-hi-res="https://payload.cargocollective.com/1/11/376496/13727308/prt_1543839291_2x.jpg" data-4x="https://payload.cargocollective.com/1/11/376496/13727308/prt_1543839291_4x.jpg" width="200" height="134">
+                                </div>
+                                <div class="thumb_title notag">
+                                    <span class="text">{{ post.name }}</span>&nbsp;
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}	
+        
+                </div>

@@ -1,0 +1,8 @@
+
+<div class="nav_container">
+    {% for item in site.data.navlist.docs %}
+        <div class="page_link">
+                <a href="{{ item.url }}" >{{ item.title }}</a>
+        </div>
+     {% endfor %}
+</div>
